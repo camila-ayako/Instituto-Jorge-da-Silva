@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doação | Instituto Jorge da Silva</title>
+<meta name="description" content="Faça uma doação para o Instituto Jorge da Silva por Pix, cartão ou boleto via Mercado Pago. Veja o impacto real de cada valor doado.">
+<link rel="icon" href="https://institutojorgedasilva.org/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Pular para o conteúdo</a>
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html" aria-label="Instituto Jorge da Silva — página inicial">
+      <img src="https://institutojorgedasilva.org/assets-live/logo-instituto-jorge-topo-clean-ddzOuRNH.png" alt="Instituto Jorge da Silva">
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+<a href="sobre.html">Sobre</a>
+<a href="projetos.html">Projetos</a>
+<a href="galeria.html">Galeria</a>
+<a href="blog.html">Blog</a>
+<a href="transparencia.html">Transparência</a>
+<a href="voluntario.html">Voluntário</a>
+<a href="contato.html">Contato</a>
+
+      <a href="doe.html" class="btn btn-gold" style="margin-top:14px;display:none" data-nav-donate>Doe agora</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="doe.html" class="btn btn-gold">Doe agora</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow" style="color:var(--gold)">Doação segura</span>
+    <h1>Ajude uma estrela a brilhar</h1>
+    <p class="lead">Sua contribuição fortalece aulas, acolhimento, ações sociais e o apoio às famílias atendidas pelo Instituto Jorge da Silva.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="donate-grid">
+      <div>
+        <div class="form-card">
+          <h3 style="font-size:1.15rem;margin-bottom:4px;">Escolha um valor</h3>
+          <p style="color:var(--muted);font-size:.9rem;margin-bottom:20px;">Você pode doar por Pix, cartão ou boleto, com processamento seguro via Mercado Pago.</p>
+
+          <div class="amount-grid">
+            <button type="button" class="amount-btn" data-amount="50" aria-pressed="false">R$ 50</button>
+            <button type="button" class="amount-btn" data-amount="100" aria-pressed="true">R$ 100</button>
+            <button type="button" class="amount-btn" data-amount="250" aria-pressed="false">R$ 250</button>
+            <button type="button" class="amount-btn" data-amount="500" aria-pressed="false">R$ 500</button>
+          </div>
+
+          <label for="custom-amount" style="font-size:.86rem;font-weight:600;display:block;margin-bottom:6px;">Ou digite outro valor</label>
+          <div class="custom-amount-wrap">
+            <span>R$</span>
+            <input type="text" id="custom-amount" inputmode="numeric" value="100" aria-label="Valor personalizado da doação">
+          </div>
+
+          <button type="button" id="donate-submit" class="btn btn-gold btn-block" style="margin-bottom:12px;">💳 Doar <span id="donate-summary-value">R$ 100</span> com cartão</button>
+
+          <div class="pix-box">
+            <span class="eyebrow" style="color:var(--gold);margin-bottom:8px;">Chave Pix (CNPJ)</span>
+            <p class="key" style="margin:0 0 14px;">44.695.336/0001-91</p>
+            <button type="button" class="btn btn-outline-light btn-block" data-copy="44695336000191">📋 Copiar chave Pix</button>
+          </div>
+          <p class="form-note">Pagamentos processados com segurança via Mercado Pago. Este botão precisa ser conectado ao checkout oficial da instituição.</p>
+        </div>
+      </div>
+
+      <div>
+        <span class="eyebrow">O impacto da sua doação</span>
+        <h3 style="font-size:1.2rem;margin-bottom:18px;">Veja o que cada valor pode fazer</h3>
+
+        <div class="impact-item"><div class="icon">♥</div><div><p class="amount" style="margin:0;">R$ 50</p><p style="margin:0;color:var(--muted);font-size:.92rem;">Alimenta uma família por uma semana.</p></div></div>
+        <div class="impact-item"><div class="icon">♥</div><div><p class="amount" style="margin:0;">R$ 100</p><p style="margin:0;color:var(--muted);font-size:.92rem;">Custeia um mês de aulas de Ju-Jitsu para 2 crianças.</p></div></div>
+        <div class="impact-item"><div class="icon">♥</div><div><p class="amount" style="margin:0;">R$ 250</p><p style="margin:0;color:var(--muted);font-size:.92rem;">Fornece material pedagógico para uma turma inteira.</p></div></div>
+        <div class="impact-item"><div class="icon">♥</div><div><p class="amount" style="margin:0;">R$ 500</p><p style="margin:0;color:var(--muted);font-size:.92rem;">Apoia uma cesta básica para 10 famílias.</p></div></div>
+
+        <div class="commitment-box">
+          <span class="eyebrow">Compromisso</span>
+          <p style="margin:0;color:#e9e6df;">Cada real recebido é aplicado com responsabilidade nas ações do Instituto. Compartilhamos resultados e histórias no blog e nas redes sociais.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="https://institutojorgedasilva.org/assets-live/logo-instituto-jorge-topo-clean-ddzOuRNH.png" alt="Instituto Jorge da Silva">
+        <p>Há mais de quatro décadas despertando futuros onde antes existiam limites.</p>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/company/institutojorgedasilva/?viewAsMember=true" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+          <a href="https://www.instagram.com/institutojorgedasilvaa" aria-label="Instagram" target="_blank" rel="noopener">◎</a>
+          <a href="https://www.tiktok.com/@institutojorgedas0" aria-label="TikTok" target="_blank" rel="noopener">♪</a>
+          <a href="https://www.facebook.com/institutojorgedasilvaa" aria-label="Facebook" target="_blank" rel="noopener">f</a>
+        </div>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="transparencia.html">Transparência</a></li>
+          <li><a href="voluntario.html">Voluntariado</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li>📍 Rua Raul Lino, 34 — Jardim São Bento Novo, São Paulo/SP</li>
+          <li>📞 <a href="tel:+5511947510126">(11) 94751-0126</a></li>
+          <li>✉️ <a href="mailto:contato@institutojorgedasilva.org">contato@institutojorgedasilva.org</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Newsletter</h5>
+        <p style="font-size:.88rem;color:#a9a59c;">Receba notícias e histórias de impacto direto do Instituto.</p>
+        <form data-newsletter style="margin-top:12px;">
+          <div class="field" style="margin-bottom:10px;">
+            <input type="email" placeholder="seuemail@exemplo.com" required aria-label="E-mail para newsletter">
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Cadastrar</button>
+          <p class="newsletter-msg" style="display:none;color:var(--gold);font-size:.85rem;margin-top:8px;"></p>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Instituto Jorge da Silva — CNPJ 44.695.336/0001-91</span>
+      <span><a href="privacidade.html">Política de Privacidade</a> &nbsp;·&nbsp; <a href="termos.html">Termos de Uso</a></span>
+    </div>
+  </div>
+</footer>
+<a class="whatsapp-fab" href="https://wa.me/5511947510126" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">☎</a>
+<script src="js/main.js"></script>
+</body>
+</html>
